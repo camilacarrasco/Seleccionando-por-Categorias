@@ -20,6 +20,7 @@
 	      	</div>
 	      </header>
 	      <section class="presentacion-peliculas">
+	        <!--categories-->
 	      	<div class="container">
 	      		<div class="row">
 	      		    <div class="col-sm-12 model-1">
@@ -30,39 +31,41 @@
 						    Elige Tu Categória <span class="caret"></span>
 						  </button>
 						  <ul class="dropdown-menu">
-						    <li><a href="#">Acción</a></li>
-						    <li><a href="#">Comedia</a></li>
-						    <li><a href="#">Romántica</a></li>
+						    <li><a href="#" onclick="mostrarTodas()">Todas</a></li>
+						    <li><a href="#" onclick="mostrarAccion()">Acción</a></li>
+						    <li><a href="#" onclick="mostrarComedia()">Comedia</a></li>
 						    <li role="separator" class="divider"></li>
-						    <li><a href="#">Infantil</a></li>
-						    <li><a href="#">Terror</a></li>
-						    <li><a href="#">Aventura</a></li>
+						    <li><a href="#" onclick="mostrarRomántica()">Romántica</a></li>
+						    <li><a href="#" onclick="mostrarInfantil()">Infantil</a></li>
+						    <li><a href="#" onclick="mostrarTerror()">Terror</a></li>
+						    <li><a href="#" onclick="mostrarAventura()">Aventura</a></li>
 						  </ul>
 						</div>
 						</h2>
 	      		    </div>
 	      		</div>
 	      	</div>
+	      	<!--movies-->
 	      	<div class="container">
 	      	    <!--row file 1-->
 	      		<div class="row">
 	      			<div class="col-sm-12">
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Infantil">
 		      			     <a href="reinos-monos.html">
 		      			     <img class="pelis-en-cartel clasicas" src="img/reinos-monos.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Terror">
 		      			     <a href="El-otro-lado.html">
 		      			     <img class="pelis-en-cartel" src="img/the-other.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Aventura Romántica">
 		      			     <a href="focus.html">
 		      			     <img class="pelis-en-cartel" src="img/focus.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Infantil">
 		      			     <a href="buscando-dory.html">
 		      			     <img class="pelis-en-cartel" src="img/Buscando_a_Dory.jpg"width="230"height="286">
 		      			     </a>
@@ -72,22 +75,22 @@
 	      		<!--row new file 2 -->
 	      		<div class="row">
 	      			<div class="col-sm-12">
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Aventura Accion">
 		      			     <a href="Cazador.html">
 		      			     <img class="pelis-en-cartel clasicas" src="img/cazador.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Romántica">
 		      			     <a href="antes-de-ti.html">
 		      			     <img class="pelis-en-cartel" src="img/antes-de-ti.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Terror">
 		      			     <a href="El-conjuro-2.html">
 		      			     <img class="pelis-en-cartel" src="img/el-conjuro.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Aventura">
 		      			     <a href="dioses-egipto.html">
 		      			     <img class="pelis-en-cartel clasicas" src="img/dioses-egipto.jpg"width="230"height="286">
 		      			     </a>
@@ -97,22 +100,22 @@
 	      		<!--row new file 3 -->
 	      		<div class="row">
 	      			<div class="col-sm-12">
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Accion">
 		      			     <a href="el-hobbit.html">
 		      			     <img class="pelis-en-cartel clasicas" src="img/hobbit.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Romántica">
 		      			     <a href="bajo-la-misma-estrella.html">
 		      			     <img class="pelis-en-cartel" src="img/estrella.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Comedia">
 		      			     <a href="Mejor-solteras.html">
 		      			     <img class="pelis-en-cartel" src="img/solteras.jpg"width="230"height="286">
 		      			     </a>
 	      			     </div>
-	      			     <div class="col-sm-3">
+	      			     <div class="col-sm-3 Comedia">
 		      			     <a href="ml-vecinos.html">
 		      			     <img class="pelis-en-cartel clasicas" src="img/ml-vecinos.jpg"width="230"height="286">
 		      			     </a>
